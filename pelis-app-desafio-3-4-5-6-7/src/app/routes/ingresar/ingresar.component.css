@@ -1,0 +1,93 @@
+    /* Estilos generales del contenedor de login */
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Asegura que el login ocupe la pantalla completa en altura */
+        background-color: #0D1117; /* Color de fondo, ajustar según diseño */
+    }
+    
+    /* Estilos de la tarjeta de login */
+    .login-card {
+        background: #161B22; /* Color de fondo de la tarjeta, ajustar según diseño */
+        padding: 2rem;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 400px; /* Ancho máximo de la tarjeta */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Sombra para la tarjeta */
+    }
+    
+    /* Estilos para los grupos de formulario */
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    
+    /* Estilos para las etiquetas */
+    .form-group label {
+        display: block;
+        color: #58A6FF; /* Color de la etiqueta, ajustar según diseño */
+        margin-bottom: .5rem;
+    }
+    
+    /* Estilos para los inputs del formulario */
+    .form-group input {
+        width: 100%;
+        padding: 0.75rem;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #30363d; /* Color del borde, ajustar según diseño */
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: #0D1117; /* Fondo de los inputs, ajustar según diseño */
+        color: #C9D1D9; /* Color del texto de los inputs, ajustar según diseño */
+    }
+    
+    /* Estilo para el botón de ingresar */
+    .btn-login {
+        background-color: #1F6FEB; /* Color de fondo, ajustar según diseño */
+        color: white;
+        padding: 1rem;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    .btn-login:hover {
+        background-color: #164DAB; /* Color al pasar el mouse, ajustar según diseño */
+    }
+    
+    /* Estilo para el login social de Google */
+    .btn-google {
+        background-color: #DB4437; /* Color de fondo para el botón de Google */
+        color: white;
+        padding: 10px 20px;
+        margin: 1rem 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .btn-google:hover {
+        background-color: #C1351D; /* Color al pasar el mouse, ajustar según diseño */
+    }
+    
+    /* Enlace para registrarse */
+    .register-link {
+        color: #58A6FF; /* Color del enlace, ajustar según diseño */
+        text-align: center;
+        display: block;
+        margin-top: 1rem;
+    }
+    
+    .register-link a {
+        color: #58A6FF; /* Color del enlace, ajustar según diseño */
+        text-decoration: none;
+    }
+    
+    .register-link a:hover {
+        text-decoration: underline;
+    }
+    
